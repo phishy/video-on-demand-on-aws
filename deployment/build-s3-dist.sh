@@ -10,7 +10,7 @@ fi
 echo "== mkdir -p dist"
 mkdir -p dist
 ls -lh
-#TEMPALTE
+#TEMPLATE
 echo "==cp video-on-demand-on-aws.yaml dist/video-on-demand-on-aws.template"
 cp video-on-demand-on-aws.yaml dist/video-on-demand-on-aws.template
 echo "==update CODEBUCKET in template with $1"
